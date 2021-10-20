@@ -1,0 +1,166 @@
+/****** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+/****** GRID ******/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;   
+}
+
+/****** TYPEFACE ******/
+
+h1, h2, h3 , h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 12px;
+}
+h4 {
+    font-size: 16px;
+}
+p {
+	font-size: 16px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+
+/****** HEADER ******/
+
+header {
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+}
+
+header h1 { 
+    color: #77a466;
+    float: left;
+    margin: 0;
+    padding: 38px 0;
+}
+header h1 span {
+    color: #000000;
+}
+header nav {
+    float: right; 
+    padding: 46px 0;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 65px; 
+    display: inline;
+}
+header nav ul li a {
+	text-decoration: none;
+	color:#77a466;
+}
+
+/****** BODY ******/
+
+.first-section,
+.second-section {
+	margin: 0 auto;
+	clear: both;
+}
+
+/****** FIRST SECTION ******/
+
+.hero-image {
+	height: auto;
+	float: left;
+}
+.hero-image img {
+	border-bottom: 3px solid #77a466;
+}
+
+.summary {
+    height: auto;
+    float: left;
+}
+.summary h2 {
+    text-align: left;
+    padding: 6px 0;
+    color: #77a466;
+}
+.summary p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/****** SECOND SECTION ******/
+    /****** Layout ******/
+
+.first-block, .second-block, .third-block {
+    width: 399px;
+    height: auto;
+    float: left;
+    border-top: 1px solid #dedbdc;
+
+}
+
+.first-block h3 {
+    padding: 10px 0 0;
+}
+.second-block {
+	border-left: 1px solid #dedbdc;
+	border-right: 1px solid #dedbdc;
+}
+.second-block h3, .third-block h3 {
+    padding: 10px 30px 0;
+}
+
+    /****** Layout Typeface ******/
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    color: #77a466;
+    padding: 10px 0;
+}
+
+.reviews {
+    line-height: 21px;
+}
+
+.address {
+    line-height: 24px;
+}
+
+footer {
+    border-top: 1px solid #dedbdc;
+    clear: both;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer h4 span {
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    color: #77a466;
+    text-transform: lowercase;
+}
